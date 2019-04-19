@@ -1,6 +1,6 @@
 # Evolving your ATM simulation
 
-We were using a fixed set of accounts and keeping them into memory. As we're evolving our app, we'll need to adjust for a few requirements
+We were using a fixed set of accounts and keeping them into memory. As we're evolving our app, we'll need to adjust it for a few requirements
 
   - Read the account initial info from a csv file
     - Fields will remain ` Name `, ` PIN `, ` Balance `, ` Account Number `
@@ -14,5 +14,5 @@ We were using a fixed set of accounts and keeping them into memory. As we're evo
   - Provide a screen that help us query the last 10 transactions of a given account
 
 # HINT!
-You can make use of everything you've learned to this point. Special attention to Lambdas, Streams and IO
+You can make use of everything you've learned to this point. Special attention to Lambdas, Streams and I/O
 
