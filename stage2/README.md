@@ -7,9 +7,11 @@ We were using a fixed set of accounts and keeping them into memory. As we're evo
   - CSV file needs to have at least 20 records. Be creative :-)
   - In order to read from CSV file, apply everything you've learned so far in this unit.
   - We can safely assume that the CSV file will be on your disk, so you can pass an absolute path to read it
+  - Pass the file location as a program argument
   - Add the following validations:
-    - There can't be 2 different accounts with the same Account Number
-    - There can't be duplicated records
+    - There can't be 2 different accounts with the same Account Number {{number}} (use this as a message)
+    - There can't be duplicated records {{record}}(use this as a message and show the whole record)
+    - When any of this exceptions happens show the corresponding message on screen
     
   - We need to keep track of the transactions that have been made in our system. For that reason, model something that will help us with this requirement
   - Provide a screen that help us query the last 10 transactions of a given account
@@ -26,7 +28,7 @@ Follow the steps below:
 
  - Run the application. Is the Welcome screen displayed?
  - Does the application provide all the previous functionalities?
- - Does the application provide a menu for loading a file? (i.e. passing an absolute path)
+ - Does the application provide the functionality to read a file from program arguments? (i.e. passing an absolute path)
  - Does the app allow to transfer to any of the accounts loaded from the file?
  - Does the app provide a way of reading a csv record into an account? How cluttered is the code?
  - Are there at least 3 abstractions?
