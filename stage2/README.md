@@ -51,7 +51,7 @@ Follow the steps below:
 SIDE NOTE:
 - I think the concurrency part will be a bit difficult to simulate or implement at this moment. Also, nowadays is very unlikely that someone will ever need to implement concurrency on a low-level. 
 For example, Spring Boot provides already a ThreadPoolExecutor easily configurable for async tasks. Also, streams api provide tthe parallelStream method to allow the app process the operations in parallel. I think the concurrency could be evaluated on the Green Belt level
-
+- Something that I'm expecting here is to have 2 kinds of stores, one for Accounts and one for Transactions,  that will act as very basic datasources. I would expect also an upper layer that will provide methods to operate over this "proto-stores". Such methods should be kept for stage3 as abstractions to operate with database
 
 
 
