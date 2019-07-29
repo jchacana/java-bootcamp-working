@@ -10,7 +10,7 @@ For this stage, the requirements are:
   - Create a connection to a database. You can use MySQL, PostgreSQL or MSSqlServer
   - Add support for JUnit (write at least the tests specified in the review section)
   - Provide a way (up to you) to query all the transactions made on a specific day. You have to handle dates. HINT!: Use Java 8 Date API
-  - Migrate all your current screens to JSP and/or Servlet
+  - Migrate all your current screens to JSP and/or Servlet (up to you)
 
 Remember to still support previous requirements. We're evolving an application
 
