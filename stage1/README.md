@@ -116,8 +116,8 @@ A program which simulate the functionalities of ATM
   Transaction processing happens after user choose 1 (Confirm Trx)
   - Display message `Invalid account` if account is not numbers
   - Display message `Invalid account` if account is not found
-  - Maximum amount to transfer is $1000. Display message `Maximum amount to withdraw is $1000` if transfer amount is higher than $1000.
-  - Minimum amount to transfer is $1. Display message `Minimum amount to withdraw is $1` if transfer amount is lower than $1.
+  - Maximum amount to transfer is $1000. Display message `Maximum amount to transfer is $1000` if transfer amount is higher than $1000.
+  - Minimum amount to transfer is $1. Display message `Minimum amount to transfer is $1` if transfer amount is lower than $1.
   - Display message `Invalid amount` if transfer amount is not numbers.
   - Display message `Insufficient balance $300` for insufficient balance. `$300` is the transfer amount 
   - Display message `Invalid Reference Number` if reference number is not empty and not numbers
